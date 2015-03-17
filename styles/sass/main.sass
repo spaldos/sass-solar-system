@@ -1,0 +1,137 @@
+@import variables
+
+html, body, #solar-system
+  height: 100%
+
+body
+  background-color: #000
+  margin: 0
+
+#solar-system
+  position: relative  
+
+#solar-system div
+  position: absolute
+  top: 50%
+  left: 50%
+  border-radius: 50%
+
+#mercury
+  background-color: #98979C
+  width: $mercury-d
+  height: $mercury-d
+  +orbit(mercury, $mercury-l, $mercury-o)
+
+#venus
+  background-color: #F0CB63
+  width: $venus-d
+  height: $venus-d
+  +orbit(venus, $venus-l, $venus-o)
+
+#moon
+  background-color: gray
+  height: $moon-d
+  width: $moon-d
+  +orbit(moon, $moon-l, $moon-o)
+
+#earth
+  background-color: #384895
+  height: $earth-d
+  width: $earth-d
+  +orbit(earth, $earth-l, $earth-o)  
+
+#mars
+  background-color: #B0632C
+  height: $mars-d
+  width: $mars-d
+  +orbit(mars, $mars-l, $mars-o)
+
+#jupiter
+  background-color: #7D6A56
+  height: $jupiter-d
+  width: $jupiter-d
+  +orbit(jupiter, $jupiter-l, $jupiter-o)
+
+  #ganymede
+    background-color: #A59170
+    height: $ganymede-d
+    width: $ganymede-d
+    +orbit(ganymede, $ganymede-l, $ganymede-o)
+
+  #callisto
+    background-color: #CB825B
+    height: $callisto-d
+    width: $callisto-d
+    +orbit(callisto, $callisto-l, $callisto-o)
+
+  #io
+    background-color: #AB9A32
+    height: $io-d
+    width: $io-d
+    +orbit(io, $io-l, $io-o)
+
+  #europa
+    background-color: #537297
+    height: $europa-d
+    width: $europa-d
+    +orbit(europa, $europa-l, $europa-o)
+
+#saturn 
+  z-index: 0
+  background-color: #BCA96F
+  height: $saturn-d
+  width: $saturn-d
+  +orbit(saturn, $saturn-l, $saturn-o)
+
+  &:after
+    content: ''
+    z-index: 1    
+    border-radius: 50%
+    background-color: inherit
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+  
+  .rings
+    z-index: 1
+    margin: -20px 0 0 -20px
+    width: 30px
+    height: 30px 
+    border: 5px solid #5a4e34
+    border-radius: 20px 
+    transform: skewY(50deg)
+
+  #titan
+    background-color: #F9D06D
+    height: $titan-d
+    width: $titan-d
+    +orbit(titan, $titan-l, $titan-o)
+
+#uranus
+  background-color: #B0632C
+  height: $uranus-d
+  width: $uranus-d
+  +orbit(uranus, $uranus-l, $uranus-o)
+
+#neptune
+  background-color: #4059EC
+  height: $neptune-d
+  width: $neptune-d
+  +orbit(neptune, $neptune-l, $neptune-o)
+
+  #triton
+    background-color: #D8C6D2
+    height: $triton-d
+    width: $triton-d
+    +orbit(triton, $triton-l, $triton-o)
+
+#sun
+  background-color: #fc3
+  height: $sun-d
+  width: $sun-d
+  margin-left: $sun-d / -2
+  margin-top: $sun-d / -2
+  box-shadow: 0 0 50px #c90

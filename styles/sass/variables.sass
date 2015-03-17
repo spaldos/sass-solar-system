@@ -1,0 +1,72 @@
+// constants
+$base:          3476
+$orbit_base:    10
+$location_base: 7125000
+
+=orbit($name, $distance, $duration)
+  animation: $name $duration linear infinite
+  +animateOrbit($name, $distance)
+
+=animateOrbit($name, $distance)
+  @keyframes #{$name}
+    from 
+      transform: rotate(0deg) translateX($distance) rotate(0deg)
+    to 
+      transform: rotate(360deg) translateX($distance) rotate(-360deg)
+
+@function distance($distance, $body)
+  @return ($distance / $location_base) + ($body / 2)
+
+@function diameter($d)
+  @if ($d / $base) > 1
+    @return ($d / $base)
+  @else
+    @return 1px
+
+// the heavens
+$sun-d:         1392000px / $base
+$mercury-d:     +diameter(4879px)
+$mercury-o:     88s / $orbit_base
+$mercury-l:     +distance(57910000px, $sun-d)
+$venus-d:       +diameter(12104px)
+$venus-o:       225s / $orbit_base
+$venus-l:       +distance(108200000px, $sun-d)
+$earth-d:       +diameter(12742px)
+$earth-o:       365s / $orbit_base
+$earth-l:       +distance(149500000px, $sun-d)
+$moon-d:        +diameter(3476px)
+$moon-o:        27.3s / $orbit_base
+$moon-l:        +distance(384400px, $earth-d) + 3px
+$mars-d:        +diameter(6779px)
+$mars-o:        687s / $orbit_base
+$mars-l:        +distance(227900000px, $sun-d)
+$jupiter-d:     +diameter(139822px)
+$jupiter-o:     (12 * 365s) / $orbit_base
+$jupiter-l:     +distance(778500000px, $sun-d)
+$ganymede-d:    +diameter(5268px)
+$ganymede-o:    (172s / 24) / $orbit_base
+$ganymede-l:    +distance(1070000px, $jupiter-d) + 3px
+$callisto-d:    +diameter(4820px)
+$callisto-o:    17s / $orbit_base
+$callisto-l:    +distance(422000px, $jupiter-d) + 3px
+$io-d:          +diameter(3636px)
+$io-o:          (42s / 24) / $orbit_base
+$io-l:          +distance(422000px, $jupiter-d) + 3px
+$europa-d:      +diameter(3160px)
+$europa-o:      (85s / 24) / $orbit_base
+$europa-l:      +distance(671000px, $jupiter-d) + 3px
+$saturn-d:      +diameter(116464px)
+$saturn-o:      (29 * 365s) / $orbit_base
+$saturn-l:      +distance(1433000000px, $sun-d)
+$titan-d:       +diameter(5152px)
+$titan-o:       16s / $orbit_base
+$titan-l:       +distance(185520px, $saturn-d) + 3px
+$uranus-d:      +diameter(50724px)
+$uranus-o:      (84 * 365s) / $orbit_base
+$uranus-l:      +distance(2877000000px, $sun-d)
+$neptune-d:     +diameter(49244px)
+$neptune-o:     (185 * 365s) / $orbit_base
+$neptune-l:     +distance(4503000000px, $sun-d)
+$triton-d:      +diameter(2700px)
+$triton-o:      (141s / 24) / $orbit_base
+$triton-l:      +distance(9667120px, $neptune-d) + 3px

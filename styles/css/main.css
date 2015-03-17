@@ -1,0 +1,347 @@
+html, body, #solar-system {
+  height: 100%; }
+
+body {
+  background-color: #000;
+  margin: 0; }
+
+#solar-system {
+  position: relative; }
+
+#solar-system div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%; }
+
+#mercury {
+  background-color: #98979C;
+  width: 1.40362px;
+  height: 1.40362px;
+  -webkit-animation: mercury 8.8s linear infinite;
+          animation: mercury 8.8s linear infinite; }
+@-webkit-keyframes mercury {
+  from {
+    -webkit-transform: rotate(0deg) translateX(208.35787px) rotate(0deg);
+            transform: rotate(0deg) translateX(208.35787px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(208.35787px) rotate(-360deg);
+            transform: rotate(360deg) translateX(208.35787px) rotate(-360deg); } }
+@keyframes mercury {
+  from {
+    -webkit-transform: rotate(0deg) translateX(208.35787px) rotate(0deg);
+            transform: rotate(0deg) translateX(208.35787px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(208.35787px) rotate(-360deg);
+            transform: rotate(360deg) translateX(208.35787px) rotate(-360deg); } }
+#venus {
+  background-color: #F0CB63;
+  width: 3.48216px;
+  height: 3.48216px;
+  -webkit-animation: venus 22.5s linear infinite;
+          animation: venus 22.5s linear infinite; }
+@-webkit-keyframes venus {
+  from {
+    -webkit-transform: rotate(0deg) translateX(215.41611px) rotate(0deg);
+            transform: rotate(0deg) translateX(215.41611px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(215.41611px) rotate(-360deg);
+            transform: rotate(360deg) translateX(215.41611px) rotate(-360deg); } }
+@keyframes venus {
+  from {
+    -webkit-transform: rotate(0deg) translateX(215.41611px) rotate(0deg);
+            transform: rotate(0deg) translateX(215.41611px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(215.41611px) rotate(-360deg);
+            transform: rotate(360deg) translateX(215.41611px) rotate(-360deg); } }
+#moon {
+  background-color: gray;
+  height: 1px;
+  width: 1px;
+  -webkit-animation: moon 2.73s linear infinite;
+          animation: moon 2.73s linear infinite; }
+@-webkit-keyframes moon {
+  from {
+    -webkit-transform: rotate(0deg) translateX(4.8868px) rotate(0deg);
+            transform: rotate(0deg) translateX(4.8868px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(4.8868px) rotate(-360deg);
+            transform: rotate(360deg) translateX(4.8868px) rotate(-360deg); } }
+@keyframes moon {
+  from {
+    -webkit-transform: rotate(0deg) translateX(4.8868px) rotate(0deg);
+            transform: rotate(0deg) translateX(4.8868px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(4.8868px) rotate(-360deg);
+            transform: rotate(360deg) translateX(4.8868px) rotate(-360deg); } }
+#earth {
+  background-color: #384895;
+  height: 3.66571px;
+  width: 3.66571px;
+  -webkit-animation: earth 36.5s linear infinite;
+          animation: earth 36.5s linear infinite; }
+@-webkit-keyframes earth {
+  from {
+    -webkit-transform: rotate(0deg) translateX(221.21261px) rotate(0deg);
+            transform: rotate(0deg) translateX(221.21261px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(221.21261px) rotate(-360deg);
+            transform: rotate(360deg) translateX(221.21261px) rotate(-360deg); } }
+@keyframes earth {
+  from {
+    -webkit-transform: rotate(0deg) translateX(221.21261px) rotate(0deg);
+            transform: rotate(0deg) translateX(221.21261px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(221.21261px) rotate(-360deg);
+            transform: rotate(360deg) translateX(221.21261px) rotate(-360deg); } }
+#mars {
+  background-color: #B0632C;
+  height: 1.95023px;
+  width: 1.95023px;
+  -webkit-animation: mars 68.7s linear infinite;
+          animation: mars 68.7s linear infinite; }
+@-webkit-keyframes mars {
+  from {
+    -webkit-transform: rotate(0deg) translateX(232.21611px) rotate(0deg);
+            transform: rotate(0deg) translateX(232.21611px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(232.21611px) rotate(-360deg);
+            transform: rotate(360deg) translateX(232.21611px) rotate(-360deg); } }
+@keyframes mars {
+  from {
+    -webkit-transform: rotate(0deg) translateX(232.21611px) rotate(0deg);
+            transform: rotate(0deg) translateX(232.21611px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(232.21611px) rotate(-360deg);
+            transform: rotate(360deg) translateX(232.21611px) rotate(-360deg); } }
+#jupiter {
+  background-color: #7D6A56;
+  height: 40.22497px;
+  width: 40.22497px;
+  -webkit-animation: jupiter 438s linear infinite;
+          animation: jupiter 438s linear infinite; }
+@-webkit-keyframes jupiter {
+  from {
+    -webkit-transform: rotate(0deg) translateX(309.49331px) rotate(0deg);
+            transform: rotate(0deg) translateX(309.49331px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(309.49331px) rotate(-360deg);
+            transform: rotate(360deg) translateX(309.49331px) rotate(-360deg); } }
+@keyframes jupiter {
+  from {
+    -webkit-transform: rotate(0deg) translateX(309.49331px) rotate(0deg);
+            transform: rotate(0deg) translateX(309.49331px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(309.49331px) rotate(-360deg);
+            transform: rotate(360deg) translateX(309.49331px) rotate(-360deg); } }
+  #jupiter #ganymede {
+    background-color: #A59170;
+    height: 1.51554px;
+    width: 1.51554px;
+    -webkit-animation: ganymede 0.71667s linear infinite;
+            animation: ganymede 0.71667s linear infinite; }
+@-webkit-keyframes ganymede {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.26266px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.26266px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.26266px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.26266px) rotate(-360deg); } }
+@keyframes ganymede {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.26266px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.26266px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.26266px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.26266px) rotate(-360deg); } }
+  #jupiter #callisto {
+    background-color: #CB825B;
+    height: 1.38665px;
+    width: 1.38665px;
+    -webkit-animation: callisto 1.7s linear infinite;
+            animation: callisto 1.7s linear infinite; }
+@-webkit-keyframes callisto {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.17171px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.17171px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.17171px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.17171px) rotate(-360deg); } }
+@keyframes callisto {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.17171px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.17171px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.17171px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.17171px) rotate(-360deg); } }
+  #jupiter #io {
+    background-color: #AB9A32;
+    height: 1.04603px;
+    width: 1.04603px;
+    -webkit-animation: io 0.175s linear infinite;
+            animation: io 0.175s linear infinite; }
+@-webkit-keyframes io {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.17171px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.17171px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.17171px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.17171px) rotate(-360deg); } }
+@keyframes io {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.17171px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.17171px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.17171px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.17171px) rotate(-360deg); } }
+  #jupiter #europa {
+    background-color: #537297;
+    height: 1px;
+    width: 1px;
+    -webkit-animation: europa 0.35417s linear infinite;
+            animation: europa 0.35417s linear infinite; }
+@-webkit-keyframes europa {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.20666px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.20666px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.20666px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.20666px) rotate(-360deg); } }
+@keyframes europa {
+  from {
+    -webkit-transform: rotate(0deg) translateX(23.20666px) rotate(0deg);
+            transform: rotate(0deg) translateX(23.20666px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(23.20666px) rotate(-360deg);
+            transform: rotate(360deg) translateX(23.20666px) rotate(-360deg); } }
+#saturn {
+  z-index: 0;
+  background-color: #BCA96F;
+  height: 33.50518px;
+  width: 33.50518px;
+  -webkit-animation: saturn 1058.5s linear infinite;
+          animation: saturn 1058.5s linear infinite; }
+@-webkit-keyframes saturn {
+  from {
+    -webkit-transform: rotate(0deg) translateX(401.35296px) rotate(0deg);
+            transform: rotate(0deg) translateX(401.35296px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(401.35296px) rotate(-360deg);
+            transform: rotate(360deg) translateX(401.35296px) rotate(-360deg); } }
+@keyframes saturn {
+  from {
+    -webkit-transform: rotate(0deg) translateX(401.35296px) rotate(0deg);
+            transform: rotate(0deg) translateX(401.35296px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(401.35296px) rotate(-360deg);
+            transform: rotate(360deg) translateX(401.35296px) rotate(-360deg); } }
+  #saturn:after {
+    content: "";
+    z-index: 1;
+    border-radius: 50%;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%; }
+  #saturn .rings {
+    z-index: 1;
+    margin: -20px 0 0 -20px;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #5a4e34;
+    border-radius: 20px;
+    -webkit-transform: skewY(50deg);
+        -ms-transform: skewY(50deg);
+            transform: skewY(50deg); }
+  #saturn #titan {
+    background-color: #F9D06D;
+    height: 1.48216px;
+    width: 1.48216px;
+    -webkit-animation: titan 1.6s linear infinite;
+            animation: titan 1.6s linear infinite; }
+@-webkit-keyframes titan {
+  from {
+    -webkit-transform: rotate(0deg) translateX(19.77863px) rotate(0deg);
+            transform: rotate(0deg) translateX(19.77863px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(19.77863px) rotate(-360deg);
+            transform: rotate(360deg) translateX(19.77863px) rotate(-360deg); } }
+@keyframes titan {
+  from {
+    -webkit-transform: rotate(0deg) translateX(19.77863px) rotate(0deg);
+            transform: rotate(0deg) translateX(19.77863px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(19.77863px) rotate(-360deg);
+            transform: rotate(360deg) translateX(19.77863px) rotate(-360deg); } }
+#uranus {
+  background-color: #B0632C;
+  height: 14.59264px;
+  width: 14.59264px;
+  -webkit-animation: uranus 3066s linear infinite;
+          animation: uranus 3066s linear infinite; }
+@-webkit-keyframes uranus {
+  from {
+    -webkit-transform: rotate(0deg) translateX(604.01962px) rotate(0deg);
+            transform: rotate(0deg) translateX(604.01962px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(604.01962px) rotate(-360deg);
+            transform: rotate(360deg) translateX(604.01962px) rotate(-360deg); } }
+@keyframes uranus {
+  from {
+    -webkit-transform: rotate(0deg) translateX(604.01962px) rotate(0deg);
+            transform: rotate(0deg) translateX(604.01962px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(604.01962px) rotate(-360deg);
+            transform: rotate(360deg) translateX(604.01962px) rotate(-360deg); } }
+#neptune {
+  background-color: #4059EC;
+  height: 14.16686px;
+  width: 14.16686px;
+  -webkit-animation: neptune 6752.5s linear infinite;
+          animation: neptune 6752.5s linear infinite; }
+@-webkit-keyframes neptune {
+  from {
+    -webkit-transform: rotate(0deg) translateX(832.23015px) rotate(0deg);
+            transform: rotate(0deg) translateX(832.23015px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(832.23015px) rotate(-360deg);
+            transform: rotate(360deg) translateX(832.23015px) rotate(-360deg); } }
+@keyframes neptune {
+  from {
+    -webkit-transform: rotate(0deg) translateX(832.23015px) rotate(0deg);
+            transform: rotate(0deg) translateX(832.23015px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(832.23015px) rotate(-360deg);
+            transform: rotate(360deg) translateX(832.23015px) rotate(-360deg); } }
+  #neptune #triton {
+    background-color: #D8C6D2;
+    height: 1px;
+    width: 1px;
+    -webkit-animation: triton 0.5875s linear infinite;
+            animation: triton 0.5875s linear infinite; }
+@-webkit-keyframes triton {
+  from {
+    -webkit-transform: rotate(0deg) translateX(11.44022px) rotate(0deg);
+            transform: rotate(0deg) translateX(11.44022px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(11.44022px) rotate(-360deg);
+            transform: rotate(360deg) translateX(11.44022px) rotate(-360deg); } }
+@keyframes triton {
+  from {
+    -webkit-transform: rotate(0deg) translateX(11.44022px) rotate(0deg);
+            transform: rotate(0deg) translateX(11.44022px) rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg) translateX(11.44022px) rotate(-360deg);
+            transform: rotate(360deg) translateX(11.44022px) rotate(-360deg); } }
+#sun {
+  background-color: #fc3;
+  height: 400.4603px;
+  width: 400.4603px;
+  margin-left: -200.23015px;
+  margin-top: -200.23015px;
+  box-shadow: 0 0 50px #c90; }
+
+/*# sourceMappingURL=main.css.map */

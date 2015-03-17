@@ -1,0 +1,25 @@
+mercury:                4879km          2px
+distance-sun:           57910000km      167px
+
+venus:                  12104km         3px
+distance-sun:           108200000km     311px
+
+earth:                  12742km         4px
+distance-sun:           149500000km     430px
+
+moon:                   3476km          1px
+distance-earth:         384400km        110px
+
+mars:                   6779km          2px
+distance-sun:           227900000km     655px
+
+jupiter:                139822km         40px
+distance-sun:           778500000km     655px116,464
+
+saturn:                 116464km         36px
+distance-sun:           1433000000km     655px
+
+solar-system:           4503000000000km 100%
+
+
+1 month = 1 second
